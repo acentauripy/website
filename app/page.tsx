@@ -58,8 +58,8 @@ export default function Home() {
             <div className="flex items-center justify-center">
               <div className="relative h-[300px] w-full overflow-hidden rounded-lg md:h-[400px]">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Equipo aCentauri trabajando en un proyecto de robótica"
+                  src="/media-kit/acentauri_logo.png?height=400&width=600"
+                  alt="aCentauri."
                   fill
                   className="object-cover"
                   priority
@@ -110,13 +110,13 @@ export default function Home() {
               </ul>
             </div>
             <div className="relative h-[300px] w-full overflow-hidden rounded-lg md:h-[400px]">
-              <Image src="/placeholder.svg?height=400&width=600" alt="Equipo aCentauri" fill className="object-cover" />
+              <Image src="/images/img-01.jpg?height=400&width=600" alt="Equipo aCentauri" fill className="object-cover" />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Projects Section */}
+      {/* Projects Section
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -162,7 +162,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* Join Section 
       <section className="w-full py-12 md:py-24 lg:py-32 border-t">

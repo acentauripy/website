@@ -64,7 +64,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="relative h-[300px] w-full overflow-hidden rounded-lg md:h-[400px]">
-              <Image src="/placeholder.svg?height=400&width=600" alt="Equipo aCentauri" fill className="object-cover" />
+              <Image src="/images/team-drawing.png?height=400&width=800" alt="Equipo aCentauri" fill className="object-cover" />
             </div>
           </div>
         </div>
