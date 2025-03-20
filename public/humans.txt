@@ -1,0 +1,51 @@
+/* TEAM */
+
+Lead Developer: Ana Martínez
+Contact: ana@acentauri.co
+GitHub: @anamartinez
+Location: San Lorenzo, Paraguay
+
+AI Specialist: Carlos Gómez
+Contact: carlos@acentauri.co
+GitHub: @carlosgomez
+Location: San Lorenzo, Paraguay
+
+Software Engineer: Laura Benítez
+Contact: laura@acentauri.co
+GitHub: @laurabenitez
+Location: San Lorenzo, Paraguay
+
+Automation Specialist: Martín López
+Contact: martin@acentauri.co
+GitHub: @martinlopez
+Location: San Lorenzo, Paraguay
+
+Systems Designer: Sofía Rodríguez
+Contact: sofia@acentauri.co
+GitHub: @sofiarodriguez
+Location: San Lorenzo, Paraguay
+
+Full Stack Developer: Diego Fernández
+Contact: diego@acentauri.co
+GitHub: @diegofernandez
+Location: San Lorenzo, Paraguay
+
+/* SITE */
+
+Last update: 2025/03/20
+Standards: HTML5, CSS3, JavaScript
+Components: Next.js, React, Tailwind CSS, shadcn/ui
+Software: Visual Studio Code, Git, Figma
+
+/* THANKS */
+
+Facultad de Ingeniería UNA por su apoyo continuo
+Todos nuestros patrocinadores y colaboradores
+La comunidad de ingeniería y tecnología de Paraguay
+
+/* SITE */
+
+Sitio web: https://acentauri.co
+Redes sociales: @acentauripy
+Construido con pasión y dedicación por el equipo αCentauri
+

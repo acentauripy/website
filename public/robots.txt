@@ -1,0 +1,11 @@
+# www.robotstxt.org
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://acentauri.co/sitemap.xml
+
+# Optimized for search engines
+Disallow: /media-kit/
+
