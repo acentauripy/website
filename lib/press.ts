@@ -101,7 +101,7 @@ export const videoInterviews: VideoInterview[] = [
       date: "2025-11-30",
       description:
         "Entrevista con los miembros del equipo aCentauri tras su victoria en el NASA Space Apps Challenge 2025, donde hablaron sobre su proyecto, los desafíos enfrentados y cómo su solución ha impactado a la comunidad global.",
-      embedUrl: "https://drive.google.com/file/d/1CMtLWGYmLVxSVDcGPnS4ogtX2SjHCAXI/view?usp=drive_link",
+      embedUrl: "https://drive.google.com/file/d/1CMtLWGYmLVxSVDcGPnS4ogtX2SjHCAXI/preview",
       thumbnail: "/images/pyTV-2025-spaceapps-thumbnail.png?height=400&width=600",
       featured: true,
     }
