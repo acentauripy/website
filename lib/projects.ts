@@ -12,6 +12,39 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Appsteroids: Orrery Digital de NEOs",
+    slug: "appsteroids-orrery-neos",
+    excerpt: "Un orrery digital interactivo para visualizar y analizar la trayectoria de NEOs (Objetos Cercanos a la Tierra) en tiempo real.",
+    content: [
+      "Appsteroids es un orrery digital diseñado para la visualización interactiva de NEOs (Objetos Cercanos a la Tierra), incluyendo asteroides y cometas. Su objetivo es permitir a los usuarios explorar sus órbitas en el Sistema Solar de manera intuitiva y detallada.",
+      "El proyecto fue desarrollado como parte del NASA Space Apps Challenge 2024, obteniendo el primer lugar a nivel local y destacando en el Top 40 global entre miles de equipos participantes.",
+      "La aplicación utiliza datos orbitales reales de agencias espaciales para representar con precisión la trayectoria de estos objetos. Implementa gráficos en 3D mediante tecnologías como WebGL y Three.js, permitiendo una navegación fluida y una experiencia inmersiva.",
+      "Además de la representación visual, Appsteroids incorpora herramientas analíticas para estudiar la evolución de las órbitas, su proximidad a la Tierra y eventos astronómicos relevantes. Actualmente, el proyecto se encuentra en fase de mejora, con planes de integrar bases de datos en tiempo real y funcionalidades adicionales para científicos y entusiastas de la astronomía.",
+    ],
+    coverImage: "/media-kit/appsteroids_banner.png?height=500&width=800",
+    date: "2024-10-06",
+    category: "Simulación",
+    technologies: ["WebGL", "Three.js", "JavaScript", "Python", "NASA Horizons API"],
+    team: ["David Giménez", "Oscar Alderete", "Esteban Ibarra", "Gabriel Park", "José Hellión"],
+  },
+  {
+    title: "Moonquake Map: Visualización de Lunamotos",
+    slug: "moonquake-map-lunamotos",
+    excerpt: "Plataforma interactiva para visualizar y analizar lunamotos utilizando datos de agencias espaciales y misiones lunares.",
+    content: [
+      "Moonquake Map es una herramienta de visualización interactiva diseñada para representar y analizar lunamotos en la superficie lunar. Utiliza datos recopilados por misiones espaciales y agencias como la NASA y la ESA, proporcionando una visión detallada de la actividad sísmica en la Luna.",
+      "El proyecto permite a los usuarios explorar un mapa lunar con eventos sísmicos históricos y recientes, clasificados según su magnitud y profundidad. También ofrece modelos analíticos que ayudan a comprender las causas y patrones de los lunamotos.",
+      "La plataforma se basa en tecnologías de geovisualización y modelado de datos en tiempo real. Implementa WebGL y D3.js para la representación gráfica, mientras que los datos sísmicos provienen de bases científicas como las del Apollo Passive Seismic Experiment.",
+      "Moonquake Map tiene aplicaciones tanto en la investigación como en la educación, ayudando a científicos, estudiantes y entusiastas de la astronomía a comprender mejor la dinámica interna de la Luna. Actualmente, el proyecto está en desarrollo para integrar modelos predictivos y mejorar la resolución de los datos visualizados.",
+    ],
+    coverImage: "/images/moonquake-map.png?height=500&width=800",
+    date: "2022-10-03",
+    category: "Simulación",
+    technologies: ["WebGL", "D3.js", "JavaScript", "Python", "NASA PDS API"],
+    team: ["David Giménez", "Oscar Alderete", "Esteban Ibarra", "Juan Rojas"],
+  },
+  
+  /*{
     title: "Robot Autónomo de Exploración",
     slug: "robot-autonomo-exploracion",
     excerpt: "Desarrollo de un robot autónomo capaz de explorar y mapear entornos desconocidos.",
@@ -138,6 +171,6 @@ export const projects: Project[] = [
     category: "Software",
     technologies: ["React", "Django", "PostgreSQL", "Docker", "AWS"],
     team: ["Diego Fernández", "Sofía Rodríguez", "Carlos Gómez"],
-  },
+  },*/
 ]
 

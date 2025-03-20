@@ -18,13 +18,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
   if (!competition) {
     return {
-      title: "Competencia no encontrada | αCentauri",
+      title: "Competencia no encontrada | aCentauri",
       description: "La competencia que buscas no existe.",
     }
   }
 
   return {
-    title: `${competition.title} | αCentauri`,
+    title: `${competition.title} | aCentauri`,
     description: competition.excerpt,
   }
 }

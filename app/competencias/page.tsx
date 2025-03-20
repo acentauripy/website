@@ -5,9 +5,9 @@ import CompetitionCard from "@/components/competition-card"
 import { competitions } from "@/lib/competitions"
 
 export const metadata = {
-  title: "Competencias | αCentauri",
+  title: "Competencias | aCentauri",
   description:
-    "Explora las competencias internacionales en las que ha participado el equipo αCentauri, representando a FIUNA.",
+    "Explora las competencias internacionales en las que ha participado el equipo aCentauri, representando a FIUNA.",
 }
 
 export default function CompetitionsPage() {
@@ -38,8 +38,7 @@ export default function CompetitionsPage() {
                 Competencias Internacionales
               </h1>
               <p className="max-w-[700px] text-muted-foreground md:text-xl">
-                Explora las competencias internacionales en las que ha participado el equipo αCentauri, representando a
-                FIUNA.
+                Explorá las competencias internacionales en las que ha participado el equipo.
               </p>
             </div>
           </div>
@@ -53,8 +52,8 @@ export default function CompetitionsPage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Nuestra Trayectoria</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-lg">
-                A lo largo de los años, hemos participado en diversas competencias internacionales, poniendo a prueba
-                nuestras habilidades y representando a nuestra universidad.
+                A lo largo de los años, participamos en diversas competencias internacionales, poniendo a prueba
+                nuestras habilidades.
               </p>
             </div>
           </div>
@@ -108,14 +107,14 @@ export default function CompetitionsPage() {
         </section>
       ))}
 
-      {/* Call to Action */}
+      {/* Call to Action
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">¿Quieres ser parte de nuestro equipo?</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-lg">
-                Únete a αCentauri y participa en competencias internacionales representando a FIUNA.
+                Únete a aCentauri y participa en competencias internacionales representando a FIUNA.
               </p>
             </div>
             <div className="pt-4">
@@ -128,7 +127,7 @@ export default function CompetitionsPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
     </div>
   )
 }

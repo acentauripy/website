@@ -32,19 +32,19 @@ export const contactInfo = {
   social: {
     youtube: "https://youtube.com/@acentauripy",
     instagram: "https://instagram.com/acentauripy",
-    twitter: "https://x.com/acentauripy",
-    linkedin: "https://linkedin.com/company/acentauripy",
+    //twitter: "https://x.com/acentauripy",
+    //linkedin: "https://linkedin.com/company/acentauripy",*
   },
   website: "https://acentauri.co",
 }
 
 // SEO metadata
 export const siteMetadata = {
-  title: "αCentauri - Equipo de Ingeniería FIUNA",
+  title: "aCentauri",
   description:
-    "Equipo de estudiantes de ingeniería de la FIUNA especializado en robótica, inteligencia artificial, automatización y programación.",
+    "Equipo de estudiantes de ingeniería de la FIUNA especializado en programación, inteligencia artificial y robótica.",
   keywords:
-    "ingeniería, robótica, inteligencia artificial, automatización, programación, FIUNA, Paraguay, competencias, proyectos, logros, prensa",
+    "ingeniería, programación, inteligencia artificial, robótica, estudiantes, FIUNA, Paraguay, competencias, proyectos, logros, prensa",
   siteUrl: "https://acentauri.co",
   twitterHandle: "@acentauripy",
   locale: "es_PY",
@@ -54,19 +54,19 @@ export const siteMetadata = {
 export const brandGuidelines = {
   colors: {
     primary: {
-      name: "Azul αCentauri",
-      hex: "#0055B8",
-      rgb: "0, 85, 184",
+      name: "Negro",
+      hex: "#000000",
+      rgb: "0, 0, 0",
     },
     secondary: {
-      name: "Naranja αCentauri",
-      hex: "#FF6B00",
-      rgb: "255, 107, 0",
+      name: "Blanco",
+      hex: "#fafafa",
+      rgb: "250, 250, 250",
     },
     accent: {
-      name: "Turquesa αCentauri",
-      hex: "#00B8B8",
-      rgb: "0, 184, 184",
+      name: "Gris",
+      hex: "#343434",
+      rgb: "72, 68, 68",
     },
     neutral: {
       dark: "#212121",
@@ -76,11 +76,11 @@ export const brandGuidelines = {
   },
   typography: {
     primary: "Poppins",
-    secondary: "Roboto",
-    monospace: "Roboto Mono",
+    secondary: "Poppins",
+    monospace: "Poppins",
   },
   spacing: {
-    clearSpace: "El logo debe tener un espacio libre alrededor equivalente a la altura de la letra α.",
+    clearSpace: "El logo debe tener un espacio libre alrededor equivalente a la altura de la letra a.",
     minSize: "El logo no debe utilizarse en tamaños menores a 30px de altura para asegurar su legibilidad.",
   },
 }

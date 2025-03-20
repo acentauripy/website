@@ -34,13 +34,13 @@ export interface MediaAsset {
 }
 
 export const pressItems: PressItem[] = [
-  {
+ /* {
     id: "abc-color-2023-robocup",
     title: "Estudiantes paraguayos obtienen reconocimiento en competencia internacional de robótica",
     source: "ABC Color",
     date: "2023-07-20",
     description:
-      "El equipo αCentauri de la Facultad de Ingeniería UNA obtuvo el tercer lugar en la categoría de Robots de Rescate en la competencia RoboCup 2023 celebrada en Bordeaux, Francia.",
+      "El equipo aCentauri de la Facultad de Ingeniería UNA obtuvo el tercer lugar en la categoría de Robots de Rescate en la competencia RoboCup 2023 celebrada en Bordeaux, Francia.",
     link: "https://www.abc.com.py/ejemplo",
     image: "/placeholder.svg?height=400&width=600",
     type: "article",
@@ -52,7 +52,7 @@ export const pressItems: PressItem[] = [
     source: "Última Hora",
     date: "2023-11-15",
     description:
-      "αCentauri, equipo de la FIUNA, se coronó campeón en la categoría Open Challenge de la IEEE Latin American Robotics Competition 2023 realizada en Santiago de Chile.",
+      "aCentauri, equipo de la FIUNA, se coronó campeón en la categoría Open Challenge de la IEEE Latin American Robotics Competition 2023 realizada en Santiago de Chile.",
     link: "https://www.ultimahora.com/ejemplo",
     image: "/placeholder.svg?height=400&width=600",
     type: "article",
@@ -64,7 +64,7 @@ export const pressItems: PressItem[] = [
     source: "La Nación",
     date: "2022-10-10",
     description:
-      "El proyecto 'Planetary Lander' del equipo αCentauri fue seleccionado como finalista global en el NASA Space Apps Challenge 2022, destacándose entre miles de participantes de todo el mundo.",
+      "El proyecto 'Planetary Lander' del equipo aCentauri fue seleccionado como finalista global en el NASA Space Apps Challenge 2022, destacándose entre miles de participantes de todo el mundo.",
     link: "https://www.lanacion.com.py/ejemplo",
     image: "/placeholder.svg?height=400&width=600",
     type: "article",
@@ -82,36 +82,36 @@ export const pressItems: PressItem[] = [
   },
   {
     id: "paraguay-tv-2023-entrevista",
-    title: "Entrevista a αCentauri tras su éxito en RoboCup 2023",
+    title: "Entrevista a aCentauri tras su éxito en RoboCup 2023",
     source: "Paraguay TV",
     date: "2023-08-05",
     description:
-      "Miembros del equipo αCentauri fueron entrevistados sobre su experiencia y logros en la competencia internacional RoboCup 2023, donde obtuvieron el tercer lugar y un premio a la innovación.",
+      "Miembros del equipo aCentauri fueron entrevistados sobre su experiencia y logros en la competencia internacional RoboCup 2023, donde obtuvieron el tercer lugar y un premio a la innovación.",
     link: "https://www.paraguaytv.gov.py/ejemplo",
     image: "/placeholder.svg?height=400&width=600",
     type: "mention",
-  },
+  },*/
 ]
 
 export const videoInterviews: VideoInterview[] = [
-  {
-    id: "gen-2023-robocup",
-    title: "αCentauri: El equipo paraguayo que triunfa en competencias internacionales de robótica",
-    channel: "GEN",
-    date: "2023-07-25",
-    description:
-      "Entrevista con los miembros del equipo αCentauri tras su regreso de la RoboCup 2023, donde hablan sobre su experiencia, los desafíos enfrentados y sus planes futuros.",
-    embedUrl: "https://drive.google.com/file/d/EXAMPLE1/preview",
-    thumbnail: "/placeholder.svg?height=400&width=600",
-    featured: true,
-  },
-  {
+    {
+      id: "pyTV-2025-spaceapps",
+      title: "aCentauri: El equipo paraguayo que triunfa en NASA Space Apps Challenge 2025",
+      channel: "ParaguayTV",
+      date: "2025-11-30",
+      description:
+        "Entrevista con los miembros del equipo aCentauri tras su victoria en el NASA Space Apps Challenge 2025, donde hablaron sobre su proyecto, los desafíos enfrentados y cómo su solución ha impactado a la comunidad global.",
+      embedUrl: "https://drive.google.com/file/d/1CMtLWGYmLVxSVDcGPnS4ogtX2SjHCAXI/view?usp=drive_link",
+      thumbnail: "/images/pyTV-2025-spaceapps-thumbnail.png?height=400&width=600",
+      featured: true,
+    }
+ /* {
     id: "telefuturo-2023-ieee",
     title: "Ingenieros paraguayos ganan competencia latinoamericana de robótica",
     channel: "Telefuturo",
     date: "2023-11-20",
     description:
-      "Reportaje sobre el triunfo del equipo αCentauri en la IEEE Latin American Robotics Competition 2023, incluyendo demostraciones de su robot ganador.",
+      "Reportaje sobre el triunfo del equipo aCentauri en la IEEE Latin American Robotics Competition 2023, incluyendo demostraciones de su robot ganador.",
     embedUrl: "https://drive.google.com/file/d/EXAMPLE2/preview",
     thumbnail: "/placeholder.svg?height=400&width=600",
     featured: true,
@@ -122,7 +122,7 @@ export const videoInterviews: VideoInterview[] = [
     channel: "Unicanal",
     date: "2022-10-15",
     description:
-      "Entrevista con el equipo αCentauri sobre su proyecto 'Planetary Lander' y su experiencia como finalistas globales en el NASA Space Apps Challenge 2022.",
+      "Entrevista con el equipo aCentauri sobre su proyecto 'Planetary Lander' y su experiencia como finalistas globales en el NASA Space Apps Challenge 2022.",
     embedUrl: "https://drive.google.com/file/d/EXAMPLE3/preview",
     thumbnail: "/placeholder.svg?height=400&width=600",
   },
@@ -132,72 +132,72 @@ export const videoInterviews: VideoInterview[] = [
     channel: "NPY",
     date: "2022-08-25",
     description:
-      "Reportaje sobre el proyecto 'EduBox' del equipo αCentauri, ganador del Hackathon de Innovación Social 2022, que busca mejorar el acceso a la educación en zonas rurales.",
+      "Reportaje sobre el proyecto 'EduBox' del equipo aCentauri, ganador del Hackathon de Innovación Social 2022, que busca mejorar el acceso a la educación en zonas rurales.",
     embedUrl: "https://drive.google.com/file/d/EXAMPLE4/preview",
     thumbnail: "/placeholder.svg?height=400&width=600",
-  },
+  },*/
 ]
 
 export const mediaAssets: MediaAsset[] = [
   {
     id: "logo-principal-color",
     name: "Logo Principal a Color",
-    description: "Versión principal del logo αCentauri a color para uso en fondos claros.",
-    fileUrl: "/media-kit/logo-principal-color.png",
-    thumbnailUrl: "/placeholder.svg?height=200&width=200",
+    description: "Versión principal del logo aCentauri a color para uso en fondos claros.",
+    fileUrl: "/media-kit/centauri-b.png",
+    thumbnailUrl: "/media-kit/centauri-b.png?height=200&width=200",
     fileType: "png",
     category: "logo",
-    dimensions: "2000x600px",
-    fileSize: "156KB",
+    dimensions: "2945x2944px",
+    fileSize: "1.66MB",
   },
   {
     id: "logo-principal-blanco",
     name: "Logo Principal en Blanco",
-    description: "Versión del logo αCentauri en blanco para uso en fondos oscuros.",
-    fileUrl: "/media-kit/logo-principal-blanco.png",
-    thumbnailUrl: "/placeholder.svg?height=200&width=200",
+    description: "Versión del logo aCentauri en blanco para uso en fondos oscuros.",
+    fileUrl: "/media-kit/centauri-w.png",
+    thumbnailUrl: "/media-kit/centauri-w.png?height=200&width=200",
     fileType: "png",
     category: "logo",
-    dimensions: "2000x600px",
-    fileSize: "142KB",
+    dimensions: "2982x2982px",
+    fileSize: "1.55MB",
   },
   {
     id: "logo-principal-negro",
     name: "Logo Principal en Negro",
-    description: "Versión del logo αCentauri en negro para uso en fondos claros cuando se requiere monocromático.",
-    fileUrl: "/media-kit/logo-principal-negro.png",
-    thumbnailUrl: "/placeholder.svg?height=200&width=200",
+    description: "Versión del logo aCentauri en negro para uso en fondos claros cuando se requiere monocromático.",
+    fileUrl: "/media-kit/alfacentauri-b.png",
+    thumbnailUrl: "/media-kit/alfacentauri-b.png?height=200&width=200",
     fileType: "png",
     category: "logo",
-    dimensions: "2000x600px",
-    fileSize: "138KB",
+    dimensions: "11815x11809px",
+    fileSize: "829KB",
   },
   {
     id: "logo-isotipo-color",
     name: "Isotipo a Color",
-    description: "Versión reducida del logo αCentauri (solo símbolo) a color.",
-    fileUrl: "/media-kit/logo-isotipo-color.png",
-    thumbnailUrl: "/placeholder.svg?height=200&width=200",
+    description: "Versión reducida del logo aCentauri (solo símbolo) a color.",
+    fileUrl: "/media-kit/isotipo.png",
+    thumbnailUrl: "/media-kit/isotipo.png?height=200&width=200",
     fileType: "png",
     category: "icon",
-    dimensions: "600x600px",
-    fileSize: "86KB",
+    dimensions: "2555x2555px",
+    fileSize: "1.60MB",
   },
   {
     id: "banner-horizontal",
     name: "Banner Horizontal",
-    description: "Banner horizontal con el logo αCentauri para uso en sitios web y redes sociales.",
-    fileUrl: "/media-kit/banner-horizontal.jpg",
-    thumbnailUrl: "/placeholder.svg?height=200&width=600",
-    fileType: "jpg",
+    description: "Banner horizontal con el logo aCentauri para uso en sitios web y redes sociales.",
+    fileUrl: "/media-kit/acentauri_banner.png",
+    thumbnailUrl: "/media-kit/acentauri_banner.png?height=200&width=600",
+    fileType: "png",
     category: "banner",
-    dimensions: "1200x300px",
-    fileSize: "245KB",
+    dimensions: "8000x4500px",
+    fileSize: "5.99MB",
   },
-  {
+  /*{
     id: "manual-identidad",
     name: "Manual de Identidad Visual",
-    description: "Documento completo con las normas de uso de la identidad visual de αCentauri.",
+    description: "Documento completo con las normas de uso de la identidad visual de aCentauri.",
     fileUrl: "/media-kit/manual-identidad.pdf",
     thumbnailUrl: "/placeholder.svg?height=300&width=200",
     fileType: "pdf",
@@ -208,23 +208,23 @@ export const mediaAssets: MediaAsset[] = [
     id: "kit-completo",
     name: "Kit Completo de Identidad Visual",
     description:
-      "Archivo comprimido con todos los elementos de la identidad visual de αCentauri en diferentes formatos.",
+      "Archivo comprimido con todos los elementos de la identidad visual de aCentauri en diferentes formatos.",
     fileUrl: "/media-kit/kit-completo.zip",
     thumbnailUrl: "/placeholder.svg?height=200&width=200",
     fileType: "zip",
     category: "document",
     fileSize: "12.8MB",
-  },
+  },*/
   {
-    id: "foto-equipo-2023",
-    name: "Foto Oficial del Equipo 2023",
-    description: "Fotografía oficial del equipo αCentauri del año 2023 en alta resolución.",
-    fileUrl: "/media-kit/foto-equipo-2023.jpg",
-    thumbnailUrl: "/placeholder.svg?height=200&width=300",
+    id: "foto-equipo-2025",
+    name: "Foto Oficial del Equipo 2025",
+    description: "Fotografía oficial del equipo aCentauri del año 2025 en alta resolución.",
+    fileUrl: "/images/img-01.jpg",
+    thumbnailUrl: "/images/img-01.jpg?height=200&width=300",
     fileType: "jpg",
     category: "photo",
-    dimensions: "3000x2000px",
-    fileSize: "4.5MB",
+    dimensions: "2331x1748px",
+    fileSize: "451KB",
   },
 ]
 

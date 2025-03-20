@@ -19,13 +19,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
   if (!post) {
     return {
-      title: "Artículo no encontrado | αCentauri",
+      title: "Artículo no encontrado | aCentauri",
       description: "El artículo que buscas no existe.",
     }
   }
 
   return {
-    title: `${post.title} | αCentauri`,
+    title: `${post.title} | aCentauri`,
     description: post.excerpt,
   }
 }

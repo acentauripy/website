@@ -16,19 +16,19 @@ export const metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
   title: {
     default: siteMetadata.title,
-    template: `%s | αCentauri`,
+    template: `%s | aCentauri`,
   },
   description: siteMetadata.description,
   keywords: siteMetadata.keywords,
-  authors: [{ name: "αCentauri Team" }],
-  creator: "αCentauri Team",
+  authors: [{ name: "aCentauri Team" }],
+  creator: "aCentauri Team",
   openGraph: {
     type: "website",
     locale: siteMetadata.locale,
     url: siteMetadata.siteUrl,
     title: siteMetadata.title,
     description: siteMetadata.description,
-    siteName: "αCentauri",
+    siteName: "aCentauri",
   },
   twitter: {
     card: "summary_large_image",

@@ -5,9 +5,9 @@ import ProjectCard from "@/components/project-card"
 import { projects } from "@/lib/projects"
 
 export const metadata = {
-  title: "Proyectos | αCentauri",
+  title: "Proyectos | aCentauri",
   description:
-    "Explora los proyectos innovadores desarrollados por el equipo αCentauri en robótica, inteligencia artificial, automatización y programación.",
+    "Explora los proyectos innovadores desarrollados por el equipo aCentauri en robótica, inteligencia artificial, automatización y programación.",
 }
 
 export default function ProjectsPage() {
@@ -20,8 +20,7 @@ export default function ProjectsPage() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Nuestros Proyectos</h1>
               <p className="max-w-[700px] text-muted-foreground md:text-xl">
-                Explora los proyectos innovadores desarrollados por el equipo αCentauri en robótica, inteligencia
-                artificial, automatización y programación.
+                Explorá los proyectos innovadores desarrollados por el equipo.
               </p>
             </div>
           </div>

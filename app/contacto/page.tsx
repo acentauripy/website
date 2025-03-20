@@ -7,22 +7,22 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { contactInfo, siteMetadata } from "@/lib/utils"
 
 export const metadata = {
-  title: "Contacto | αCentauri",
+  title: "Contacto | aCentauri",
   description:
-    "Ponte en contacto con el equipo αCentauri o únete a nosotros para ser parte de nuestros proyectos y competencias.",
+    "Ponte en contacto con el equipo aCentauri o únete a nosotros para ser parte de nuestros proyectos y competencias.",
   keywords: siteMetadata.keywords + ", contacto, unirse, equipo",
   openGraph: {
-    title: "Contacto | αCentauri",
+    title: "Contacto | aCentauri",
     description:
-      "Ponte en contacto con el equipo αCentauri o únete a nosotros para ser parte de nuestros proyectos y competencias.",
+      "Ponte en contacto con el equipo aCentauri o únete a nosotros para ser parte de nuestros proyectos y competencias.",
     url: `${siteMetadata.siteUrl}/contacto`,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contacto | αCentauri",
+    title: "Contacto | aCentauri",
     description:
-      "Ponte en contacto con el equipo αCentauri o únete a nosotros para ser parte de nuestros proyectos y competencias.",
+      "Ponte en contacto con el equipo aCentauri o únete a nosotros para ser parte de nuestros proyectos y competencias.",
     creator: siteMetadata.twitterHandle,
   },
 }
@@ -37,8 +37,10 @@ export default function ContactPage() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Contacto</h1>
               <p className="max-w-[700px] text-muted-foreground md:text-xl">
-                Ponte en contacto con nosotros o únete al equipo αCentauri para ser parte de nuestros proyectos y
-                competencias.
+                ¿Tenés preguntas o querés colaborar con nosotros? Siempre estamos abiertos a conectar
+                con otros entusiastas, educadores y desarrolladores. Si te interesa saber más,
+                colaborar con nuestro equipo o contribuir a algún proyecto, no dudes en
+                contactarnos. ¡Nos encantaría saber de vos!
               </p>
             </div>
           </div>
@@ -53,7 +55,7 @@ export default function ContactPage() {
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter mb-4">Información de Contacto</h2>
                 <p className="text-muted-foreground">
-                  Puedes contactarnos a través de los siguientes medios o completando el formulario.
+                  Podés contactarnos a través de los siguientes medios o completando el formulario.
                 </p>
               </div>
 
@@ -89,11 +91,11 @@ export default function ContactPage() {
                 </Card>
               </div>
 
-              <div className="mt-8">
+              {/*<div className="mt-8">
                 <h3 className="text-xl font-bold mb-4">Horario de Atención</h3>
                 <p className="text-muted-foreground mb-2">Lunes a Viernes: 08:00 - 16:00</p>
                 <p className="text-muted-foreground">Sábados: 08:00 - 12:00</p>
-              </div>
+              </div>*/}
             </div>
 
             {/* Contact Form */}
@@ -102,7 +104,7 @@ export default function ContactPage() {
                 <CardHeader>
                   <CardTitle className="text-2xl">Envíanos un mensaje</CardTitle>
                   <CardDescription>
-                    Completa el formulario y nos pondremos en contacto contigo lo antes posible.
+                    Completá el formulario y nos pondremos en contacto contigo lo antes posible.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -167,10 +169,9 @@ export default function ContactPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Únete a αCentauri</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Unite a aCentauri</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-lg">
-                Si eres estudiante de FIUNA y te apasiona la tecnología, la innovación y el trabajo en equipo, αCentauri
-                es el lugar para ti.
+              Siempre estámos buscando colaboradores e integrantes. Envianos un mensaje y podemos agendar una reunión para conocerte.
               </p>
             </div>
           </div>
@@ -198,7 +199,7 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Trabajo en Equipo</h3>
               <p className="text-muted-foreground">
-                Forma parte de un equipo multidisciplinario donde podrás desarrollar tus habilidades y aprender de otros
+                Formá parte de un equipo multidisciplinario donde podés desarrollar tus habilidades y aprender de otros
                 estudiantes con intereses similares.
               </p>
             </Card>
@@ -223,7 +224,7 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Experiencia Práctica</h3>
               <p className="text-muted-foreground">
-                Aplica tus conocimientos teóricos en proyectos reales y adquiere experiencia práctica que complementará
+                Aplicá tus conocimientos teóricos en proyectos reales y adquirí experiencia práctica que complementará
                 tu formación académica.
               </p>
             </Card>
@@ -249,17 +250,17 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Competencias Internacionales</h3>
               <p className="text-muted-foreground">
-                Participa en competencias nacionales e internacionales, representando a FIUNA y poniendo a prueba tus
+                Participá en competencias nacionales e internacionales, representando a FIUNA y al país y poniendo a prueba tus
                 habilidades.
               </p>
             </Card>
           </div>
 
-          <div className="mt-12">
+          {/*<div className="mt-12">
             <Card>
               <CardHeader>
                 <CardTitle className="text-2xl">Proceso de Selección</CardTitle>
-                <CardDescription>Para unirte a αCentauri, debes seguir estos pasos:</CardDescription>
+                <CardDescription>Para unirte a aCentauri, debes seguir estos pasos:</CardDescription>
               </CardHeader>
               <CardContent>
                 <ol className="space-y-4 list-decimal list-inside">
@@ -277,12 +278,12 @@ export default function ContactPage() {
                   </li>
                   <li className="text-muted-foreground">
                     <span className="font-medium text-black">Incorporación</span> - Si superas el período de prueba,
-                    serás oficialmente miembro de αCentauri.
+                    serás oficialmente miembro de aCentauri.
                   </li>
                 </ol>
               </CardContent>
             </Card>
-          </div>
+          </div>*/}
         </div>
       </section>
 
@@ -293,7 +294,7 @@ export default function ContactPage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Preguntas Frecuentes</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-lg">
-                Respuestas a las preguntas más comunes sobre αCentauri.
+                Respuestas a las preguntas más comunes sobre aCentauri.
               </p>
             </div>
           </div>
@@ -301,32 +302,36 @@ export default function ContactPage() {
           <div className="mx-auto mt-12 max-w-3xl space-y-6">
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2">¿Quiénes pueden unirse a αCentauri?</h3>
+                <h3 className="text-xl font-bold mb-2">¿Por qué el nombre aCentauri?</h3>
                 <p className="text-muted-foreground">
-                  Cualquier estudiante activo de la Facultad de Ingeniería de la Universidad Nacional de Asunción
-                  (FIUNA) puede aplicar para unirse a αCentauri. Valoramos la diversidad de conocimientos, por lo que
-                  aceptamos estudiantes de todas las carreras de ingeniería.
+                El nombre aCentauri proviene de la estrella más cercana a la Tierra, Alpha Centauri.
+                Al ser la estrella más próxima en el cielo, refleja la idea de
+                estar cerca, accesible y ser un punto de referencia. Queríamos un nombre que representara
+                cercanía, en el sentido de estar al alcance y de ser un lugar donde se inician proyectos
+                con una visión más amplia.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2">¿Cuánto tiempo debo dedicar al equipo?</h3>
+                <h3 className="text-xl font-bold mb-2">¿Qué hacen en aCentauri?</h3>
                 <p className="text-muted-foreground">
-                  El tiempo de dedicación varía según el proyecto y tu rol en el equipo. En general, esperamos un
-                  compromiso mínimo de 8 horas semanales. Durante las competencias, la dedicación puede aumentar.
+                  Buscamos fomentar la experimentación y el desarrollo de soluciones tecnológicas con impacto
+                  real. Nos enfocamos en crear un espacio donde los proyectos surjan de ideas innovadoras,
+                  impulsadas por la curiosidad y la colaboración, permitiendo a los miembros explorar nuevas
+                  formas de enfrentar desafíos y aportar al avance tecnológico.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2">¿Necesito tener experiencia previa?</h3>
+                <h3 className="text-xl font-bold mb-2">¿Cómo pueden las personas involucrarse?</h3>
                 <p className="text-muted-foreground">
-                  No es necesario tener experiencia previa, pero sí es importante tener interés y disposición para
-                  aprender. Valoramos la actitud, la creatividad y el compromiso por encima de los conocimientos
-                  técnicos.
+                  Cualquier persona interesada en aprender, experimentar y participar en proyectos innovadores
+                  puede unirse a aCentauri. No es necesario tener experiencia previa, solo tener ganas de aprender,
+                  aportar ideas y trabajar en equipo para enfrentar nuevos desafíos.
                 </p>
               </CardContent>
             </Card>
@@ -335,9 +340,8 @@ export default function ContactPage() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2">¿Cómo se financian los proyectos y competencias?</h3>
                 <p className="text-muted-foreground">
-                  Nuestros proyectos y participaciones en competencias se financian a través de patrocinios de empresas,
-                  apoyo de la universidad, fondos de investigación y, en algunos casos, actividades de recaudación de
-                  fondos organizadas por el equipo.
+                  Los proyectos y competencias se financian a puro pulmón, organizamos actividades de recaudación de
+                  fondos para asegurar que nuestros equipos tengan los recursos necesarios para alcanzar sus objetivos.
                 </p>
               </CardContent>
             </Card>

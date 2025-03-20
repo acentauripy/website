@@ -11,7 +11,7 @@ export interface Competition {
 }
 
 export const competitions: Competition[] = [
-  {
+/*  {
     title: "RoboCup 2023",
     slug: "robocup-2023",
     excerpt: "Participación en la competencia internacional de robótica RoboCup en la categoría de robots de rescate.",
@@ -143,6 +143,6 @@ export const competitions: Competition[] = [
     location: "Montevideo, Uruguay",
     team: ["Ana Martínez", "Martín López", "Laura Benítez"],
     awards: ["Segundo lugar en la categoría de Robots Seguidores de Línea"],
-  },
+  },*/
 ]
 

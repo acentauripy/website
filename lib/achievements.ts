@@ -12,6 +12,96 @@ export interface Achievement {
 
 export const achievements: Achievement[] = [
   {
+    id: "nasa-space-apps-2022-honorary-mention",
+    title: "Mención de Honor en NASA Space Apps Challenge 2022",
+    description:
+      "Recibimos una Mención de Honor en la competencia internacional NASA Space Apps Challenge 2022, destacando por nuestra solución innovadora al problema de la visualización de Lunamotos.",
+    date: "2022-12-21",
+    category: "reconocimiento",
+    image: "/images/img-03.jpg?height=400&width=600",
+    location: "Asunción, Paraguay",
+    team: ["David Giménez", "Oscar Alderete", "Esteban Ibarra", "Juan Rojas"],
+  },
+  {
+    id: "nasa-space-apps-2024-local-first-place",
+    title: "Primer lugar en Paraguay en NASA Space Apps Challenge 2024",
+    description:
+      "Obtuvimos el primer lugar en la competencia local del NASA Space Apps Challenge 2024, destacando con nuestra solución innovadora para visualizar datos de Objetos Cercanos a la Tierra \"Appsteroids\".",
+    date: "2024-10-11",
+    category: "competencia",
+    image: "/images/img-02.jpg?height=400&width=600",
+    location: "Asunción, Paraguay",
+    team: ["David Giménez", "Oscar Alderete", "Esteban Ibarra", "Gabriel Park", "José Hellión"],
+  },
+  {
+    id: "nasa-space-apps-2024-global-top-40",
+    title: "Top 40 finalistas globales en NASA Space Apps Challenge 2024",
+    description:
+      "Fuimos seleccionados como uno de los 40 mejores proyectos globales en el NASA Space Apps Challenge 2024, entre casi 10,000 proyectos, por nuestra innovadora aplicación Appsteroids.",
+    date: "2024-11-20",
+    category: "competencia",
+    image: "/images/img-01.jpg?height=400&width=600",
+    location: "Virtual",
+    team: ["David Giménez", "Oscar Alderete", "Esteban Ibarra", "Gabriel Park", "José Hellión"],
+  },
+  {
+    id: "iaac-2023-bronze",
+    title: "Medalla de Bronce en IAAC 2023",
+    description:
+      "David Giménez y Oscar Alderete recibieron la medalla de bronce en la competencia internacional International Astronomy and Astrophysics Competition 2023, destacándose en el área de astronomía y astrofísica.",
+    date: "2023-06-27",
+    category: "competencia",
+    image: "/images/img-04.jpg?height=400&width=600",
+    location: "Virtual",
+    team: ["David Giménez", "Oscar Alderete"],
+  },
+  {
+    id: "iaac-2024-gold-silver",
+    title: "Medallas de Oro y Plata en IAAC 2024",
+    description:
+      "Oscar Alderete obtuvo la medalla de oro y fue reconocido como el mejor participante de Paraguay, mientras que David Giménez recibió la medalla de plata en la International Astronomy and Astrophysics Competition 2024.",
+    date: "2024-07-09",
+    category: "competencia",
+    image: "/images/img-05.jpg?height=400&width=600",
+    location: "Virtual",
+    team: ["Oscar Alderete", "David Giménez"],
+  },
+  {
+    id: "iymc-2024-bronze",
+    title: "Medalla de Bronce Global en IYMC 2024",
+    description:
+      "David Giménez obtuvo la medalla de bronce global y fue reconocido como el mejor participante de Paraguay en el International Youth Math Challenge 2024.",
+    date: "2025-02-25",
+    category: "competencia",
+    image: "/images/img-06.jpg?height=400&width=600",
+    location: "Virtual",
+    team: ["David Giménez"],
+  },
+  {
+    id: "iaac-ambassador-david",
+    title: "David Giménez aceptado como Embajador de la IAAC",
+    description:
+      "David Giménez fue aceptado como embajador de la International Astronomy and Astrophysics Competition (IAAC), promoviendo la educación y el desarrollo científico en astronomía y astrofísica a nivel internacional.",
+    date: "2023-07-05",
+    category: "academico",
+    image: "/images/iaac-amb.png?height=400&width=600",
+    location: "Virtual",
+    team: ["David Giménez"],
+  },
+  {
+    id: "iymc-ambassador-david",
+    title: "David Giménez aceptado como Embajador de la IYMC",
+    description:
+      "David Giménez fue aceptado como embajador de la International Youth Math Challenge (IYMC), promoviendo la educación matemática y el desarrollo del pensamiento lógico a nivel internacional.",
+    date: "2023-12-23",
+    category: "academico",
+    image: "/images/iymc-amb.png?height=400&width=600",
+    location: "Virtual",
+    team: ["David Giménez"],
+  },
+  
+  
+ /*() {
     id: "robocup-2023-third-place",
     title: "Tercer lugar en RoboCup 2023",
     description:
@@ -173,6 +263,6 @@ export const achievements: Achievement[] = [
     image: "/placeholder.svg?height=400&width=600",
     location: "Asunción, Paraguay",
     team: ["Ana Martínez", "Carlos Gómez", "Laura Benítez"],
-  },
+  },*/
 ]
 

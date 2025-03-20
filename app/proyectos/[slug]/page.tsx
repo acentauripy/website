@@ -18,13 +18,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
   if (!project) {
     return {
-      title: "Proyecto no encontrado | αCentauri",
+      title: "Proyecto no encontrado | aCentauri",
       description: "El proyecto que buscas no existe.",
     }
   }
 
   return {
-    title: `${project.title} | αCentauri`,
+    title: `${project.title} | aCentauri`,
     description: project.excerpt,
   }
 }
@@ -126,7 +126,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter">Proyectos Relacionados</h2>
-                <p className="max-w-[700px] text-muted-foreground md:text-lg">Explora otros proyectos similares.</p>
+                <p className="max-w-[700px] text-muted-foreground md:text-lg">Explorá otros proyectos similares.</p>
               </div>
             </div>
             <div className="mx-auto mt-12 grid max-w-5xl gap-6 md:grid-cols-2 lg:grid-cols-3">

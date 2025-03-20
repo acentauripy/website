@@ -5,9 +5,9 @@ import BlogPostCard from "@/components/blog-post-card"
 import { blogPosts } from "@/lib/blog-posts"
 
 export const metadata = {
-  title: "Blog | αCentauri",
+  title: "Blog | aCentauri",
   description:
-    "Artículos, experiencias y conocimientos compartidos por el equipo αCentauri sobre ingeniería, tecnología y nuestras competencias.",
+    "Artículos, experiencias y conocimientos compartidos por el equipo sobre ingeniería, tecnología, matemáticas y nuestras competencias.",
 }
 
 export default function BlogPage() {
@@ -28,8 +28,8 @@ export default function BlogPage() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Blog</h1>
               <p className="max-w-[700px] text-muted-foreground md:text-xl">
-                Artículos, experiencias y conocimientos compartidos por el equipo αCentauri sobre ingeniería, tecnología
-                y nuestras competencias.
+              Artículos, experiencias y conocimientos compartidos por el equipo sobre ingeniería, tecnología,
+              matemáticas, competencias y todo lo que nos parezca interesante.
               </p>
             </div>
           </div>
@@ -71,7 +71,7 @@ export default function BlogPage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Categorías</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-lg">
-                Explora nuestros artículos por categoría.
+                Explorá nuestros artículos por categoría.
               </p>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function BlogPage() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Todos los Artículos</h2>
-              <p className="max-w-[700px] text-muted-foreground md:text-lg">Explora todos nuestros artículos.</p>
+              <p className="max-w-[700px] text-muted-foreground md:text-lg">Explorá todos nuestros artículos.</p>
             </div>
           </div>
           <div className="mx-auto mt-12 grid max-w-5xl gap-6 md:grid-cols-2 lg:grid-cols-3">

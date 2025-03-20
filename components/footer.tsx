@@ -10,11 +10,10 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <Image src="/images/logo.png" alt="αCentauri Logo" width={150} height={50} className="h-12 w-auto" />
+              <Image src="/images/logo.png" alt="aCentauri Logo" width={150} height={50} className="h-12 w-auto" />
             </Link>
             <p className="text-sm text-muted-foreground">
-              Equipo de estudiantes de ingeniería de la FIUNA especializado en robótica, inteligencia artificial,
-              automatización y programación.
+              Equipo de estudiantes de ingeniería de la FIUNA especializado en programación, inteligencia artificial y robótica.
             </p>
           </div>
           <div className="space-y-4">
@@ -57,7 +56,7 @@ export default function Footer() {
             </nav>
           </div>
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">Síguenos</h3>
+            <h3 className="text-lg font-bold">Seguínos</h3>
             <div className="flex gap-4">
               <Link
                 href="https://youtube.com/@acentauripy"
@@ -77,7 +76,7 @@ export default function Footer() {
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link
+              {/*<Link
                 href="https://x.com/acentauripy"
                 className="text-muted-foreground hover:text-black"
                 target="_blank"
@@ -108,7 +107,7 @@ export default function Footer() {
               >
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
-              </Link>
+              </Link>*/}
               <Link href={`mailto:${contactInfo.email.team}`} className="text-muted-foreground hover:text-black">
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
@@ -120,7 +119,7 @@ export default function Footer() {
           <p className="text-center text-xs text-muted-foreground">
             &copy; {new Date().getFullYear()}{" "}
             <Link href="/humans.txt" className="hover:underline">
-              αCentauri
+              aCentauri
             </Link>
             . Todos los derechos reservados. Hecho con el ♡
           </p>

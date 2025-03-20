@@ -36,8 +36,8 @@ export default function Home() {
                   Construyendo el futuro juntos...
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                  αCentauri es un equipo de estudiantes de ingeniería de la FIUNA especializado en robótica,
-                  inteligencia artificial, automatización y programación.
+                  aCentauri es un equipo de estudiantes de ingeniería de la FIUNA que se especializa en programación,
+                  inteligencia artificial y robótica.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -59,7 +59,7 @@ export default function Home() {
               <div className="relative h-[300px] w-full overflow-hidden rounded-lg md:h-[400px]">
                 <Image
                   src="/placeholder.svg?height=400&width=600"
-                  alt="Equipo αCentauri trabajando en un proyecto de robótica"
+                  alt="Equipo aCentauri trabajando en un proyecto de robótica"
                   fill
                   className="object-cover"
                   priority
@@ -77,9 +77,8 @@ export default function Home() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">¿Quiénes Somos?</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                αCentauri es un equipo de estudiantes apasionados por la ingeniería y la tecnología. Nos especializamos
-                en el desarrollo de proyectos innovadores y participamos en competencias internacionales, donde ponemos
-                a prueba nuestras habilidades.
+                Somos un equipo de estudiantes apasionados por la ingeniería y la tecnología. Nos especializamos
+                en el desarrollo de proyectos innovadores y participamos en competencias internacionales.
               </p>
             </div>
           </div>
@@ -90,7 +89,7 @@ export default function Home() {
                   <div className="grid gap-1">
                     <h3 className="text-xl font-bold">Misión</h3>
                     <p className="text-muted-foreground">
-                      Desarrollar tecnología innovadora y formar ingenieros con experiencia práctica en desafíos reales.
+                    Ser un espacio de aprendizaje y desarrollo para estudiantes 
                     </p>
                   </div>
                 </li>
@@ -98,7 +97,7 @@ export default function Home() {
                   <div className="grid gap-1">
                     <h3 className="text-xl font-bold">Visión</h3>
                     <p className="text-muted-foreground">
-                      Ser un referente en ingeniería aplicada y representar a FIUNA en competencias internacionales.
+                    Ser un referente en competencias internacionales, representando a la FIUNA y al país.
                     </p>
                   </div>
                 </li>
@@ -111,7 +110,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="relative h-[300px] w-full overflow-hidden rounded-lg md:h-[400px]">
-              <Image src="/placeholder.svg?height=400&width=600" alt="Equipo αCentauri" fill className="object-cover" />
+              <Image src="/placeholder.svg?height=400&width=600" alt="Equipo aCentauri" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -165,11 +164,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Join Section */}
+      {/* Join Section 
       <section className="w-full py-12 md:py-24 lg:py-32 border-t">
         <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">¿Quieres ser parte de αCentauri?</h2>
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">¿Quieres ser parte de aCentauri?</h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Estamos buscando estudiantes apasionados por la ingeniería y la tecnología. Únete a nuestro equipo y
               desarrolla tus habilidades en proyectos reales.
@@ -184,7 +183,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </section>
+      </section>*/}
     </div>
   )
 }

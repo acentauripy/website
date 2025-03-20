@@ -9,22 +9,22 @@ import { achievements } from "@/lib/achievements"
 import { formatDate, siteMetadata } from "@/lib/utils"
 
 export const metadata = {
-  title: "Logros | αCentauri",
+  title: "Logros | aCentauri",
   description:
-    "Descubre los premios, honores y reconocimientos obtenidos por el equipo αCentauri en competencias nacionales e internacionales.",
+    "Descubre los premios, honores y reconocimientos obtenidos por el equipo aCentauri en competencias nacionales e internacionales.",
   keywords: siteMetadata.keywords + ", logros, premios, reconocimientos, competencias, medallas",
   openGraph: {
-    title: "Logros | αCentauri",
+    title: "Logros | aCentauri",
     description:
-      "Descubre los premios, honores y reconocimientos obtenidos por el equipo αCentauri en competencias nacionales e internacionales.",
+      "Descubre los premios, honores y reconocimientos obtenidos por el equipo aCentauri en competencias nacionales e internacionales.",
     url: `${siteMetadata.siteUrl}/logros`,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Logros | αCentauri",
+    title: "Logros | aCentauri",
     description:
-      "Descubre los premios, honores y reconocimientos obtenidos por el equipo αCentauri en competencias nacionales e internacionales.",
+      "Descubre los premios, honores y reconocimientos obtenidos por el equipo aCentauri en competencias nacionales e internacionales.",
     creator: siteMetadata.twitterHandle,
   },
 }
@@ -93,7 +93,7 @@ export default function AchievementsPage() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Nuestros Logros</h1>
               <p className="max-w-[700px] text-muted-foreground md:text-xl">
-                Descubre los premios, honores y reconocimientos obtenidos por el equipo αCentauri en competencias
+                Descubrí los premios, honores y reconocimientos obtenidos por el equipo  en competencias
                 nacionales e internacionales.
               </p>
             </div>
@@ -152,7 +152,7 @@ export default function AchievementsPage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Logros por Categoría</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-lg">
-                Explora nuestros logros organizados por categoría.
+                Explorá nuestros logros organizados por categoría.
               </p>
             </div>
           </div>
@@ -292,16 +292,16 @@ export default function AchievementsPage() {
         </div>
       </section>
 
-      {/* Call to Action */}
+      {/* Call to Action 
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                ¿Quieres ser parte de nuestros próximos logros?
+                ¿Querés ser parte de nuestros próximos logros?
               </h2>
               <p className="max-w-[700px] text-muted-foreground md:text-lg">
-                Únete a αCentauri y contribuye a nuestros futuros éxitos en competencias y proyectos.
+                Unite a aCentauri y contribuye a nuestros futuros éxitos en competencias y proyectos.
               </p>
             </div>
             <div className="pt-4">
@@ -314,7 +314,7 @@ export default function AchievementsPage() {
             </div>
           </div>
         </div>
-      </section>
+     </section>*/}
     </div>
   )
 }

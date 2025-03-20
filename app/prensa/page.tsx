@@ -20,22 +20,22 @@ import { pressItems, videoInterviews, mediaAssets } from "@/lib/press"
 import { formatDate, siteMetadata, brandGuidelines } from "@/lib/utils"
 
 export const metadata = {
-  title: "Prensa | αCentauri",
+  title: "Prensa | aCentauri",
   description:
-    "Centro de prensa de αCentauri: noticias, entrevistas, menciones en medios y recursos para la prensa sobre nuestro equipo de ingeniería.",
+    "Centro de prensa de aCentauri: noticias, entrevistas, menciones en medios y recursos para la prensa sobre nuestro equipo de ingeniería.",
   keywords: siteMetadata.keywords + ", prensa, noticias, entrevistas, medios, kit de prensa, branding",
   openGraph: {
-    title: "Prensa | αCentauri",
+    title: "Prensa | aCentauri",
     description:
-      "Centro de prensa de αCentauri: noticias, entrevistas, menciones en medios y recursos para la prensa sobre nuestro equipo de ingeniería.",
+      "Centro de prensa de aCentauri: noticias, entrevistas, menciones en medios y recursos para la prensa sobre nuestro equipo de ingeniería.",
     url: `${siteMetadata.siteUrl}/prensa`,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Prensa | αCentauri",
+    title: "Prensa | aCentauri",
     description:
-      "Centro de prensa de αCentauri: noticias, entrevistas, menciones en medios y recursos para la prensa sobre nuestro equipo de ingeniería.",
+      "Centro de prensa de aCentauri: noticias, entrevistas, menciones en medios y recursos para la prensa sobre nuestro equipo de ingeniería.",
     creator: siteMetadata.twitterHandle,
   },
 }
@@ -91,8 +91,17 @@ export default function PressPage() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Sala de Prensa</h1>
               <p className="max-w-[700px] text-muted-foreground md:text-xl">
-                Noticias, entrevistas y recursos para la prensa sobre el equipo αCentauri y nuestras actividades.
+                Noticias, entrevistas y recursos para la prensa sobre el equipo aCentauri y nuestras actividades.
               </p>
+            </div>
+            <div className="w-full max-w-md mx-auto">
+              <Image
+                src="/images/joeyontv.jpg"
+                alt="Joey Tribbiani sees himself on TV."
+                width={504}
+                height={894}
+                className="object-cover rounded-lg"
+              />
             </div>
           </div>
         </div>
@@ -197,7 +206,7 @@ export default function PressPage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Cobertura de Prensa</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-lg">
-                Artículos, entrevistas y menciones de αCentauri en los medios.
+                Artículos, entrevistas y menciones de aCentauri en los medios.
               </p>
             </div>
           </div>
@@ -379,7 +388,7 @@ export default function PressPage() {
                     <ul className="list-disc list-inside space-y-2 text-muted-foreground">
                       <li>Distorsionar o estirar el logo</li>
                       <li>Cambiar los colores del logo</li>
-                      <li>Añadir efectos como sombras o brillos</li>
+                      <li>Alterar el logo de cualquier manera</li>
                       <li>Colocar el logo sobre fondos que reduzcan su visibilidad</li>
                     </ul>
                   </div>
@@ -446,16 +455,16 @@ export default function PressPage() {
                     <h5 className="font-semibold mb-2">Forma correcta de escribir nuestro nombre:</h5>
                     <ul className="list-disc list-inside space-y-2 text-muted-foreground">
                       <li>
-                        <strong>αCentauri</strong> - Con la letra griega alfa minúscula seguida de "Centauri" con la C
+                        <strong>aCentauri</strong> - Con la letra griega alfa minúscula seguida de "Centauri" con la C
                         mayúscula y sin espacios
                       </li>
-                      <li>En caso de no poder utilizar el símbolo α, se puede usar "Alfa Centauri" (con espacio)</li>
+                      <li>En caso de no poder utilizar el símbolo alfa, se puede usar "aCentauri" (con la letra minúscula A)</li>
                     </ul>
                   </div>
                   <div>
                     <h5 className="font-semibold mb-2">Formas incorrectas:</h5>
                     <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                      <li>Alpha Centauri (usando "Alpha" en lugar de "α")</li>
+                      <li>Alpha Centauri (usando "Alpha" o "Alfa" en lugar de "a")</li>
                       <li>a-Centauri (usando guion)</li>
                       <li>acentauri (todo en minúsculas)</li>
                       <li>ACentauri (con A latina mayúscula)</li>
@@ -525,7 +534,7 @@ export default function PressPage() {
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">Contacto para Prensa</h2>
             <p className="text-muted-foreground mb-8">
-              Si eres periodista o representante de un medio y deseas más información sobre αCentauri, entrevistar a
+              Si sos periodista o representante de un medio y querés más información sobre aCentauri, entrevistar a
               algún miembro del equipo o cubrir alguno de nuestros eventos, no dudes en contactarnos.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
