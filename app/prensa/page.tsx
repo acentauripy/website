@@ -18,6 +18,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
 import { pressItems, videoInterviews, mediaAssets } from "@/lib/press"
 import { formatDate, siteMetadata, brandGuidelines } from "@/lib/utils"
+import { VideoButton } from "@/components/video-button";
 
 export const metadata = {
   title: "Prensa | aCentauri",
@@ -185,12 +186,7 @@ export default function PressPage() {
                     </div>
                   </CardContent>
                   <CardFooter>
-                    <Link href={`/prensa/videos/${video.id}`}>
-                      <Button variant="outline" size="sm">
-                        Ver entrevista
-                        <ArrowRight className="ml-2 h-4 w-4" />
-                      </Button>
-                    </Link>
+                    <VideoButton embedUrl={video.embedUrl} />
                   </CardFooter>
                 </Card>
               ))}
@@ -296,12 +292,7 @@ export default function PressPage() {
                         <p className="text-sm text-muted-foreground line-clamp-3">{video.description}</p>
                       </CardContent>
                       <CardFooter>
-                        <Link href={`/prensa/videos/${video.id}`}>
-                          <Button variant="outline" size="sm">
-                            Ver entrevista
-                            <ArrowRight className="ml-2 h-4 w-4" />
-                          </Button>
-                        </Link>
+                        <VideoButton embedUrl={video.embedUrl} />
                       </CardFooter>
                     </Card>
                   ))}
