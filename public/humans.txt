@@ -1,51 +1,29 @@
-/* TEAM */
+               ,ad8888ba,                                                                          88
+              d8"'    `"8b                             ,d                                          ""
+             d8'                                       88                                            
+,adPPYTvI8   88              ,adPPYba,  8b,dPPYba,   MM88MMM  ,adPPYYba,  88       88  8b,dPPYba,  88
+88     `Y8   88             a8P_____88  88P'   `"8a    88     ""     `Y8  88       88  88P'   "Y8  88
+8a      88   Y8,            8PP"""""""  88       88    88     ,adPPPPP88  88       88  88          88
+88,    ,88    Y8a.    .a8P  "8b,   ,aa  88       88    88,    88,    ,88  "8a,   ,a88  88          88
+`"8bbdP"Y8     `"Y8888Y"'    `"Ybbd8"'  88       88    "Y888  `"8bbdP"Y8   `"YbbdP'Y8  88          88
+_____________________________________________________________________________________________________
 
-Lead Developer: Ana Martínez
-Contact: ana@acentauri.co
-GitHub: @anamartinez
-Location: San Lorenzo, Paraguay
+Los que hacen el sueño posible:
 
-AI Specialist: Carlos Gómez
-Contact: carlos@acentauri.co
-GitHub: @carlosgomez
-Location: San Lorenzo, Paraguay
+David Giménez  
+Oscar Alderete  
+Esteban Ibarra  
+Juan Rojas  
+Gabriel Park  
+Jose Hellion  
+Mathias Barrios  
+_____________________________________________________________________________________________________
 
-Software Engineer: Laura Benítez
-Contact: laura@acentauri.co
-GitHub: @laurabenitez
-Location: San Lorenzo, Paraguay
+Gracias a todos los que nos ayudaron y creyeron en nosotros cuando ni nosotros mismos lo hacíamos.
+_____________________________________________________________________________________________________
 
-Automation Specialist: Martín López
-Contact: martin@acentauri.co
-GitHub: @martinlopez
-Location: San Lorenzo, Paraguay
-
-Systems Designer: Sofía Rodríguez
-Contact: sofia@acentauri.co
-GitHub: @sofiarodriguez
-Location: San Lorenzo, Paraguay
-
-Full Stack Developer: Diego Fernández
-Contact: diego@acentauri.co
-GitHub: @diegofernandez
-Location: San Lorenzo, Paraguay
-
-/* SITE */
-
-Last update: 2025/03/20
-Standards: HTML5, CSS3, JavaScript
-Components: Next.js, React, Tailwind CSS, shadcn/ui
-Software: Visual Studio Code, Git, Figma
-
-/* THANKS */
-
-Facultad de Ingeniería UNA por su apoyo continuo
-Todos nuestros patrocinadores y colaboradores
-La comunidad de ingeniería y tecnología de Paraguay
-
-/* SITE */
-
-Sitio web: https://acentauri.co
-Redes sociales: @acentauripy
-Construido con pasión y dedicación por el equipo aCentauri
-
+¿Sabias que el nombre "aCentauri" proviene de Alpha Centauri?, el sistema estelar más cercano a
+nuestro sistema solar, ubicado a solo 4.37 años luz de distancia. Alpha Centauri es un sistema triple
+compuesto por tres estrellas: Alpha Centauri A, Alpha Centauri B, y Proxima Centauri, siendo esta
+última la más cercana a la Tierra. Esta proximidad ha inspirado a aCentauri en su misión de acercarse
+a la innovación tecnológica y la creación de soluciones disruptivas.
